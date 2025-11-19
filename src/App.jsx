@@ -14,6 +14,7 @@ import Register from './pages/Register';
 import FixedPlayer from './components/FixedPlayer';
 import Terms from './pages/Terms.jsx';
 import Tutorial from './pages/Tutorial.jsx';
+import MeetMyguymars from './pages/MeetMyguymars.jsx';
 
 // Admin Pages
 import AdminLogin from './pages/admin/AdminLogin';
@@ -151,6 +152,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/tutorials" element={<Tutorial />} />
+        <Route path="/meet-myguymars" element={<MeetMyguymars />} />
 
         {/* Fallback */}
         <Route path="*" element={<Navigate to="/" replace />} />

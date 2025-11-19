@@ -14,6 +14,8 @@ const Tutorial = () => {
     { id: 'YnMLNX5gkYA', title: 'Transform Voice into an Instrument' },
     { id: 'fK8JZYF-qJ4', title: 'Export Midi - OPENBEAT.AI' },
     { id: 'Ol9ypJaUbg0', title: 'Remix a song - OpenBeat.AI' },
+    { id: 'eRL4uVt8e4I', title: 'Lyric Generator - OPENBEAT.AI' },
+    { id: 'slbGRDDkwKs', title: 'Add instruments to music - OPENBEAT.AI' },
   ];
 
   return (
@@ -130,6 +132,24 @@ const Tutorial = () => {
                 </h3>
               </div>
             ))}
+          </div>
+
+          {/* Return to Home Button */}
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '3rem' }}>
+            <Link
+              to="/"
+              className="btn-gradient"
+              style={{
+                textDecoration: 'none',
+                padding: '0.75rem 1.5rem',
+                borderRadius: '8px',
+                color: '#fff',
+                fontWeight: 600,
+                letterSpacing: '0.5px'
+              }}
+            >
+              Return to Home
+            </Link>
           </div>
         </div>
       </section>

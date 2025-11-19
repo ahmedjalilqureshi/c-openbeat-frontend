@@ -517,6 +517,13 @@ const Home = () => {
               Tutorials
             </Link>
             <Link 
+              to="/meet-myguymars" 
+              className="btn-gradient" 
+              style={{textDecoration:'none'}}
+            >
+              Meet MyGuyMars
+            </Link>
+            <Link 
               to="/terms" 
               className="btn-gradient" 
               style={{textDecoration:'none'}}
