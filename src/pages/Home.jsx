@@ -233,7 +233,16 @@ const Home = () => {
     return (
       <div>
         {/* Hero Section */}
-        <header className="hero">
+        <header className="hero landing-page">
+           <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="background-video"
+          >
+            <source src="/img/hero_video.mp4" type="video/mp4" />
+          </video>
           <div className="container">
             <div className="nav">
               <a href='/'><h1 className="logo"><img src="/img/logo.png" alt="SONGSTORY" /></h1></a>
